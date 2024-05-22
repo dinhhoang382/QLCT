@@ -18,7 +18,7 @@
 <img src="https://github.com/dinhhoang382/QLCT/assets/133390966/aa86c13b-dd0f-4e32-8dbb-f9507707029c" alt="Them khoan chi" width="200">
 
 - Dữ liệu hiển thị trên firebase
-<img src="https://github.com/dinhhoang382/QLCT/assets/133390966/4387d18f-07de-4b5f-ab23-2ce3ca084ee0" alt="Database" height="200">
+<img src="https://github.com/dinhhoang382/QLCT/assets/133390966/4387d18f-07de-4b5f-ab23-2ce3ca084ee0" alt="Database" height="300">
 
 
 
