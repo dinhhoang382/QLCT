@@ -1,0 +1,75 @@
+public class KhoanChiFragment extends Fragment {
+    private KhoanChiViewModel viewModel;
+    private RecyclerView recyclerView;
+    private CalendarView calendarView;
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_khoan_chi, container, false);
+        viewModel = new ViewModelProvider(this).get(KhoanChiViewModel.class);
+        recyclerView = view.findViewById(R.id.recyclerView);
+        calendarView = view.findViewById(R.id.calendarView);
+
+        calendarView.setOnDateChangeListener((view1, year, month, dayOfMonth) -> {
+            String selectedDate = year + "-" + (month + 1) + "-" + dayOfMonth;
+            viewModel.queryDataFromFirestore(selectedDate);
+        });
+
+        viewModel.getExpenseItems().observe(getViewLifecycleOwner(), expenseItems -> {
+            updateRecyclerView(expenseItems);
+        });
+
+        return view;
+    }
+
+    private void updateRecyclerView(List<ExpenseItem> expenseItems) {
+        ExpenseAdapter adapter = new ExpenseAdapter(expenseItems);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+    }
+}
+//
+ExpenseAdapter
+public class ExpenseAdapter extends RecyclerView.Adapter<ExpenseAdapter.ExpenseViewHolder> {
+
+    private List<ExpenseItem> expenseItems;
+
+    public ExpenseAdapter(List<ExpenseItem> expenseItems) {
+        this.expenseItems = expenseItems;
+    }
+
+    @NonNull
+    @Override
+    public ExpenseViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.expense_item_layout, parent, false);
+        return new ExpenseViewHolder(view);
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull ExpenseViewHolder holder, int position) {
+        ExpenseItem expenseItem = expenseItems.get(position);
+        holder.nameTextView.setText(expenseItem.getName());
+        holder.moneyTextView.setText(String.valueOf(expenseItem.getMoney()));
+        holder.noteTextView.setText(expenseItem.getNote());
+        holder.dateTextView.setText(expenseItem.getDate());
+        holder.categoryTextView.setText(expenseItem.getCategory());
+    }
+
+    @Override
+    public int getItemCount() {
+        return expenseItems.size();
+    }
+
+    public static class ExpenseViewHolder extends RecyclerView.ViewHolder {
+        TextView nameTextView, moneyTextView, noteTextView, dateTextView, categoryTextView;
+
+        public ExpenseViewHolder(@NonNull View itemView) {
+            super(itemView);
+            nameTextView = itemView.findViewById(R.id.nameTextView);
+            moneyTextView = itemView.findViewById(R.id.moneyTextView);
+            noteTextView = itemView.findViewById(R.id.noteTextView);
+            dateTextView = itemView.findViewById(R.id.dateTextView);
+            categoryTextView = itemView.findViewById(R.id.categoryTextView);
+        }
+    }
+}

@@ -1,0 +1,37 @@
+
+i
+java:S1604J"(Make this anonymous inner class a lambda(ÚšãÁþÿÿÿÿJ$2268eb19-8bcb-4ee2-b2f4-5844115a6434
+i
+java:S1604A"(Make this anonymous inner class a lambda(î€ðËÿÿÿÿÿJ$3e79194f-151f-405e-8f0e-3244195345cd
+i
+java:S1604T"(Make this anonymous inner class a lambda(ˆˆ›ŸÿÿÿÿÿJ$c0c03cc1-c557-484b-ae3f-611d61d1efe1
+–	java:S116 "[Rename this field "spinner_khoanthu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù¤¼‡J$92cd52bf-4c61-4228-b641-2ea3d86fe9ca
+›	java:S116!"[Rename this field "txtdate_khoanthu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Ðí€ÿÿÿÿÿJ$42b305f8-e053-49da-83d5-74806a13953c
+–	java:S116""[Rename this field "btndate_khoanthu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿñòðJ$19071859-ee19-44e4-8ff6-cef9307d6324
+–	java:S116""[Rename this field "btnsave_khoanthu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿñòðJ$285d2941-4d39-4476-921a-1db55cb48954
+–	java:S116#"[Rename this field "edtname_khoanthu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³áØ‡J$704d8354-585c-4184-9710-32c17390fa09
+—	java:S116#"\Rename this field "edtmoney_khoanthu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³áØ‡J$2f9cbdfc-a709-4ecd-8983-419527aee84c
+–	java:S116#"[Rename this field "edtnote_khoanthu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³áØ‡J$eab4b712-3da2-47df-b424-fd7bcc7ded0a
+j
+java:S1659"".Declare "btnsave_khoanthu" on a separate line.(ÿñòðJ$571fcee4-14d5-495c-913e-eba0e54938a1
+Š
+java:S1659#"NDeclare "edtmoney_khoanthu" and all following declarations on a separate line.(³áØ‡J$f578642f-acd3-45ee-b5cf-f450008dd4d8
+›
+java:S1450""_Remove the "btndate_khoanthu" field and declare it as a local variable in the relevant methods.(ÿñòðJ$f5fb7fe5-5dbd-4ccf-9bc7-13a7a96aae6f
+›
+java:S1450""_Remove the "btnsave_khoanthu" field and declare it as a local variable in the relevant methods.(ÿñòðJ$0472fcec-7795-4367-b95d-5e12f4a79064
+s
+java:S11352"2Complete the task associated to this TODO comment.(Ÿ¯‘ÚýÿÿÿÿJ$3046532c-e5db-4eb9-80e9-041f915cd7d9
+w	java:S1256"<This block of commented-out lines of code should be removed.(öçòôJ$bb57b380-33de-4b19-ab8a-e04319fa801a
+s
+java:S11355"2Complete the task associated to this TODO comment.(êÊÜ‘ûÿÿÿÿJ$f4e330ed-84df-46df-8a35-b3a058e4bc44
+n
+java:S11359"2Complete the task associated to this TODO comment.(„ÁàÇJ$64702d40-11b8-4eae-8566-a57830297123
+s
+java:S1135@"2Complete the task associated to this TODO comment.(ªëòÿüÿÿÿÿJ$8f407bc1-f891-4aaf-9e24-442972eaba56
+s
+java:S1135S"2Complete the task associated to this TODO comment.(§‡Ñ×ûÿÿÿÿJ$dac8aa53-c5ab-47eb-ad74-243d34a16412
+n
+java:S1135x"2Complete the task associated to this TODO comment.(©ÔÀÔJ$4958aff7-f00c-49dc-8147-be5fdae644f7
+n
+java:S1602‚",Remove useless curly braces around statement(ŽÕÊ¾øÿÿÿÿJ$f2a06d95-bc17-4d62-9aee-a4e95684a9ce

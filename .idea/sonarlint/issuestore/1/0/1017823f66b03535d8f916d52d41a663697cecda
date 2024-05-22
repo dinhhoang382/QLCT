@@ -1,0 +1,20 @@
+
+C
+java:S1604."(Make this anonymous inner class a lambda(ï„ªëşÿÿÿÿ
+C
+java:S1604F"(Make this anonymous inner class a lambda(ğïÙùÿÿÿÿ
+g	java:S116"RRename this field "fab_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñîĞÅ
+p	java:S116 "[Rename this field "calendar_expense" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¥·ñ
+t	java:S116!"_Rename this field "recyclerView_expense" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­£¶ò
+u
+java:S1450 "_Remove the "calendar_expense" field and declare it as a local variable in the relevant methods.(˜¥·ñ
+U
+java:S1161%":Add the "@Override" annotation above this method signature(î•Éğûÿÿÿÿ
+>
+java:S1185Z"(Remove this method to simply inherit it.(öÿÕÅ
+C
+java:S1185_"(Remove this method to simply inherit it.(º£”úÿÿÿÿ
+H
+java:S1135d"2Complete the task associated to this TODO comment.(æş·è
+M
+java:S1144c"7Remove this unused private "updateRecyclerView" method.(§´Øá

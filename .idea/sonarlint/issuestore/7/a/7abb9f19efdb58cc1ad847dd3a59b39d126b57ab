@@ -1,0 +1,33 @@
+
+”	java:S116"TRename this field "edit_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’È°§üÿÿÿÿJ$06991096-1276-41c1-a9d0-16174ad2a232
+•	java:S116"URename this field "edit_money" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’È°§üÿÿÿÿJ$73b902f4-23c3-4a20-b944-1f291d2ff42c
+”	java:S116"TRename this field "edit_note" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’È°§üÿÿÿÿJ$eaff204b-5d8a-4636-93de-c4cf5c9d78d7
+	java:S116"SRename this field "btn_Edit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÿŒÉJ$b17ee29f-68fa-4fb6-8442-bdffd7109260
+	java:S116"SRename this field "btn_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÿŒÉJ$5754e585-b5d4-49ed-8308-21ba8aa2aea7
+˜	java:S116"XRename this field "edit_category" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÏ«€ûÿÿÿÿJ$9e6e4352-38c6-4a21-bc43-565737603e77
+˜	java:S116"VRename this field "txtget_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ô«ì8ºå å1J$0ebbc27f-94b4-446e-a4c4-866f9ad13735
+ˆ
+java:S1659"GDeclare "edit_money" and all following declarations on a separate line.(’È°§üÿÿÿÿJ$65612a8b-afab-42c6-b3e6-70e41ba2305c
+b
+java:S1659"&Declare "btn_date" on a separate line.(ÿÿŒÉJ$76279ef6-e8f4-4b87-9012-be99a07324a0
+“
+java:S1450"WRemove the "btn_Edit" field and declare it as a local variable in the relevant methods.(ÿÿŒÉJ$09549362-a1a7-451f-90e0-c3ab719c5005
+“
+java:S1450"WRemove the "btn_date" field and declare it as a local variable in the relevant methods.(ÿÿŒÉJ$290e7190-df58-43b6-bfdd-e6b71ad29add
+
+java:S1450"\Remove the "edit_category" field and declare it as a local variable in the relevant methods.(ÃÏ«€ûÿÿÿÿJ$88046aa5-0d86-458f-a1e3-f40cdd097bf3
+š
+java:S1450"YRemove the "edit_money" field and declare it as a local variable in the relevant methods.(’È°§üÿÿÿÿJ$7161f027-a4a1-45ee-bf19-71b3183f1c9d
+™
+java:S1450"XRemove the "edit_name" field and declare it as a local variable in the relevant methods.(’È°§üÿÿÿÿJ$1a8957d9-af3c-47b8-9f37-2e41da4e37da
+™
+java:S1450"XRemove the "edit_note" field and declare it as a local variable in the relevant methods.(’È°§üÿÿÿÿJ$ce0271c5-534c-472d-81bc-37c0b3858af8
+
+java:S1450"ZRemove the "txtget_date" field and declare it as a local variable in the relevant methods.(“ô«ì8Öå å1J$ee5e0dab-1614-4654-8de7-76a7446a43ed
+”
+java:S1450"SRemove the "user" field and declare it as a local variable in the relevant methods.(š·àûÿÿÿÿJ$ed79e720-6911-4834-a658-913c72d79e01
+w	java:S125$"<This block of commented-out lines of code should be removed.(ç¯ìóJ$a7dfad62-56ee-4e40-9635-e0858dbeb8e3
+h
+java:S1068",Remove this unused "btn_Edit" private field.(ÿÿŒÉJ$c74b29a5-6e67-4bce-ae52-26e2061087ba
+h
+java:S1068",Remove this unused "btn_date" private field.(ÿÿŒÉJ$e993e08e-4348-4936-8fb3-014d8c9f2d01

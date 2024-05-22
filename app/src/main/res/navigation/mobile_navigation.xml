@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.bottomproject.ui.home.HomeFragment"
+        android:label="Trang chủ"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_khoanthu"
+        android:name="com.example.bottomproject.ui.dashboard.KhoanThuFragment"
+        android:label="Khoản thu"
+        tools:layout="@layout/fragment_khoanthu" />
+
+    <fragment
+        android:id="@+id/navigation_khoanchi"
+        android:name="com.example.bottomproject.ui.notifications.KhoanChiFragment"
+        android:label="Khoản chi"
+        tools:layout="@layout/fragment_khoanchi" />
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.example.bottomproject.Setting"
+        android:label="Cài đặt"
+        tools:layout="@layout/fragment_setting"/>
+</navigation>

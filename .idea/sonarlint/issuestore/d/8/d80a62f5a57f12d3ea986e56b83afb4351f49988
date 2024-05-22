@@ -1,0 +1,12 @@
+
+i
+java:S1604F"(Make this anonymous inner class a lambda(Æ°ÅøÿÿÿÿJ$aee50066-e68b-4088-a1da-fb850be57a0f
+i
+java:S1604P"(Make this anonymous inner class a lambda(³š¡…şÿÿÿÿJ$50af87ac-fba4-42a6-8d86-535361905a42
+v	java:S1255"<This block of commented-out lines of code should be removed.(——Ú0J$6e09b30b-bb2c-4b45-934f-bf0c888311e2
+	java:S116d"SRename this field "btn_edit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÖ²šJ$486e7c31-9a64-4473-a73e-974ff6bacbc3
+•	java:S116e"URename this field "btn_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èòÎñøÿÿÿÿJ$3e7b337d-2eb2-4df5-ac40-2172c3233e4f
+}
+java:S1659c"BDeclare "money" and all following declarations on a separate line.(©ˆ¹J$4d767e21-4bb8-46d8-955d-8c67d01a5b36
+n
+java:S1602„",Remove useless curly braces around statement(ÕÊ¾øÿÿÿÿJ$935d982b-4bf0-4b5c-87b2-b0de37657e3a

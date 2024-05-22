@@ -1,0 +1,20 @@
+
+H
+java:S1128"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ
+S
+java:S1128"8Remove this unused import 'androidx.lifecycle.LiveData'.(ß„ÝÞþÿÿÿÿ
+Z
+java:S1128"?Remove this unused import 'androidx.lifecycle.MutableLiveData'.(Íèæâýÿÿÿÿ
+]
+java:S1128	"BRemove this unused import 'com.google.firebase.auth.FirebaseAuth'.(ÝÄðöûÿÿÿÿ
+]
+java:S1128
+"BRemove this unused import 'com.google.firebase.auth.FirebaseUser'.(’àíÐùÿÿÿÿ
+b
+java:S1128"LRemove this unused import 'com.google.firebase.firestore.FirebaseFirestore'.(§ä…ª
+I
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ
+D
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›

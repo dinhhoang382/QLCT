@@ -1,0 +1,15 @@
+
+>
+java:S1604?"(Make this anonymous inner class a lambda(Úœ×±
+x
+java:S1450"bRemove the "addKhoanThuLauncher" field and declare it as a local variable in the relevant methods.(Û°›Ü
+l
+java:S1450"VRemove the "binding" field and declare it as a local variable in the relevant methods.(¶ÃÊ
+Q
+java:S1854$";Remove this useless assignment to local variable "navView".(‹Å´Í
+B
+java:S1481$",Remove this unused "navView" local variable.(‹Å´Í
+M
+java:S1135-"2Complete the task associated to this TODO comment.(á³àšÿÿÿÿÿ
+M
+java:S1068"7Remove this unused "addKhoanThuLauncher" private field.(Û°›Ü

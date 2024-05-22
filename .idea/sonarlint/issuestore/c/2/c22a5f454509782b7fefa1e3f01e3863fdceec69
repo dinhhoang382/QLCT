@@ -1,0 +1,18 @@
+
+>
+java:S1604-"(Make this anonymous inner class a lambda(·Ùû’
+>
+java:S1604E"(Make this anonymous inner class a lambda(äÌŒ§
+p	java:S116 "[Rename this field "fab_add_khoanthu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã·¢Ü
+t	java:S116!"ZRename this field "calendar_income" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø‘÷©ùÿÿÿÿ
+x	java:S116""^Rename this field "recyclerView_income" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”©†øúÿÿÿÿ
+y
+java:S1450!"^Remove the "calendar_income" field and declare it as a local variable in the relevant methods.(Ø‘÷©ùÿÿÿÿ
+}
+java:S1450""bRemove the "recyclerView_income" field and declare it as a local variable in the relevant methods.(”©†øúÿÿÿÿ
+U
+java:S1161$":Add the "@Override" annotation above this method signature(î•Éğûÿÿÿÿ
+>
+java:S1185Z"(Remove this method to simply inherit it.(öÿÕÅ
+C
+java:S1185_"(Remove this method to simply inherit it.(º£”úÿÿÿÿ

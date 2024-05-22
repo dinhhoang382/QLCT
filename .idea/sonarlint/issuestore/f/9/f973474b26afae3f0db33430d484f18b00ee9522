@@ -1,0 +1,15 @@
+
+J
+java:S16043"(Make this anonymous inner class a lambda(Æ°Åøÿÿÿÿ8ßÌùå1
+J
+java:S1604<"(Make this anonymous inner class a lambda(³š¡…şÿÿÿÿ8àÌùå1
+{	java:S116"_Rename this field "REQUEST_EDIT_EXPENSE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹™ì£8½Íùå1
+o	java:S100J"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Îçûÿÿÿÿ8íÍùå1
+n	java:S116R"SRename this field "btn_edit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğùß8üÍùå1
+p	java:S116R"URename this field "btn_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğùß8üÍùå1
+k
+java:S1659Q"IDeclare "dateTextView" and all following declarations on a separate line.(Å–Ûªıÿÿÿÿ8Îùå1
+D
+java:S1659R"(Declare "btn_delete" on a separate line.(ğùß8Îùå1
+N
+java:S1602s",Remove useless curly braces around statement(ÕÊ¾øÿÿÿÿ8Îùå1

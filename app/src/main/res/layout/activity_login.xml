@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Login"
+    tools:ignore="HardcodedText"
+    android:background="@drawable/background1">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:contentDescription="Logo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10sp"
+        android:text="Chào mừng!"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textSize="20sp"
+            android:paddingHorizontal="10sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/edtemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_rounded_background"
+            android:layout_margin="10dp"
+            android:textColorHint="@color/white"
+            android:hint="Nhập email"
+            android:autofillHints="emailAddress"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/mail"
+            android:drawablePadding="10dp"
+            android:inputType="textEmailAddress"/>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textSize="20sp"
+            android:paddingHorizontal="10sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:id="@+id/edtpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_rounded_background"
+            android:layout_margin="10dp"
+            android:hint="Nhập password"
+            android:fontFamily="sans-serif"
+            android:textColorHint="@color/white"
+            android:autofillHints="password"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="10dp"
+            android:inputType="textPassword"/>
+    </TableLayout>
+    <CheckBox
+        android:id="@+id/chkPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiện mật khẩu"
+        android:layout_gravity="end"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/white"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogin"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Đăng nhập"
+        android:textSize="16sp"
+        android:shadowColor="@color/black"
+        android:paddingHorizontal="15dp"
+        app:cornerRadius="10dp"
+        android:textStyle="bold"/>
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"/>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:gravity="bottom"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bạn chưa có tài khoản?"
+            android:textSize="15sp"
+            android:layout_weight="3"
+            android:padding="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng ký"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#ff0000"
+            android:layout_weight="1"
+            android:padding="10dp"/>
+    </TableRow>
+    <TextView
+        android:id="@+id/btnforgotpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quên mật khẩu"
+        android:textStyle="normal|bold"
+        android:textSize="15sp"
+        android:textColor="@color/white"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGoogleL"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/google"
+        android:drawablePadding="20dp"
+        android:text="Đăng ký bằng Google"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:cornerRadius="10dp" />
+</LinearLayout>

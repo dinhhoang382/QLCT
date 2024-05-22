@@ -1,0 +1,27 @@
+
+C
+java:S1604?"(Make this anonymous inner class a lambda(¢‚ƒ±ùÿÿÿÿ
+>
+java:S16046"(Make this anonymous inner class a lambda(©Ìˆ
+=
+java:S1604V"(Make this anonymous inner class a lambda(·ÑØC
+u	java:S116 "[Rename this field "spinner_khoanchi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÓŸ¿úÿÿÿÿ
+u	java:S116!"[Rename this field "txtdate_khoanchi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Æüíşÿÿÿÿ
+p	java:S116""[Rename this field "btndate_khoanchi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ­Ò°
+p	java:S116""[Rename this field "btnsave_khoanchi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ­Ò°
+p	java:S116#"[Rename this field "edtname_khoanchi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Ğç¡
+q	java:S116#"\Rename this field "edtmoney_khoanchi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Ğç¡
+p	java:S116#"[Rename this field "edtnote_khoanchi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Ğç¡
+D
+java:S1659"".Declare "btnsave_khoanchi" on a separate line.(İ­Ò°
+d
+java:S1659#"NDeclare "edtmoney_khoanchi" and all following declarations on a separate line.(€Ğç¡
+u
+java:S1450""_Remove the "btndate_khoanchi" field and declare it as a local variable in the relevant methods.(İ­Ò°
+u
+java:S1450""_Remove the "btnsave_khoanchi" field and declare it as a local variable in the relevant methods.(İ­Ò°
+V	java:S125Q"<This block of commented-out lines of code should be removed.(÷°¡¨üÿÿÿÿ
+M
+java:S1135"2Complete the task associated to this TODO comment.(ĞŞäñşÿÿÿÿ
+H
+java:S1602ˆ",Remove useless curly braces around statement(ÕÊ¾øÿÿÿÿ
